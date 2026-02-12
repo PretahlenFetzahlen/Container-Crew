@@ -14,15 +14,15 @@
 
                 <h2>Our Aims</h2>
                 <ul>
-                    <li onmouseover="mouseOver()" onmouseout="mouseOut()">To reduce homelessness</li>
+                    <li onmouseover="mouseOver1()" onmouseout="mouseOut1()">To reduce homelessness</li>
                     <br>
                         <p id ="aim1">We aim to,</p>
                     <br>
-                    <li onmouseover="mouseOver()" onmouseout="mouseOut()">Provide a second chance to those in need</li>
+                    <li onmouseover="mouseOver2()" onmouseout="mouseOut2()">Provide a second chance to those in need</li>
                     <br>
                         <p id ="aim2">We aim to,</p>
                     <br>
-                    <li onmouseover="mouseOver()" onmouseout="mouseOut()">And improve the living experience for <b>everyone</b> in the community</li>
+                    <li onmouseover="mouseOver3()" onmouseout="mouseOut3()">And improve the living experience for <b>everyone</b> in the community</li>
                     <br>
                         <p id ="aim3">We aim to,</p>
                     <br><br>
@@ -38,13 +38,30 @@
     </body>
 
     <script>
-        function mouseOver() {
+        function mouseOver1() {
           document.getElementById("aim1").style.display = "block";
         }
         
-        function mouseOut() {
+        function mouseOut1() {
           document.getElementById("aim1").style.display = "none";
+        }
+
+        function mouseOver2() {
+          document.getElementById("aim2").style.display = "block";
+        }
+        
+        function mouseOut2() {
+          document.getElementById("aim2").style.display = "none";
+        }
+
+        function mouseOver3() {
+          document.getElementById("aim3").style.display = "block";
+        }
+        
+        function mouseOut3() {
+          document.getElementById("aim3").style.display = "none";
         }
 </script>
 
 </html>
+
