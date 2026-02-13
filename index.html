@@ -9,24 +9,39 @@
         <main>
             <h1>Our Challenge</h1>
 
-            <section id = main_text>                
-                <p>Our chosen challenge is to design a community space using end of life shipping containers to benefit our local community.</p>
+            <section class="content">
+                <p>
+                    Our chosen challenge is to design a community space using
+                    end of life shipping containers to benefit our local
+                    community.
+                </p>
 
                 <h2>Our Aims</h2>
-                <ul>
-                    <li styles="display:hidden" onmouseover="mouseOver1()" onmouseout="mouseOut1()">To reduce homelessness</li>
-                    <br>
-                        <p id ="aim1">We aim to,</p>
-                    <br>
-                    <li styles="display:hidden" onmouseover="mouseOver2()" onmouseout="mouseOut2()">Provide a second chance to those in need</li>
-                    <br>
-                        <p id ="aim2">We aim to,</p>
-                    <br>
-                    <li styles="display:hidden" onmouseover="mouseOver3()" onmouseout="mouseOut3()">And improve the living experience for <b>everyone</b> in the community</li>
-                    <br>
-                        <p id ="aim3">We aim to,</p>
-                    <br><br>
-                </ul>
+                <section class="aims">
+                    <details>
+                        <summary>To reduce homelessness</summary>
+                        <p>
+                            <i>Content Here...</i>
+                        </p>
+                    </details>
+                    <details>
+                        <summary>
+                            Provide a second chance to those in need
+                        </summary>
+                        <p>
+                            <i>Content Here...</i>
+                        </p>
+                    </details>
+                    <details>
+                        <summary>
+                            And improve the living experience for
+                            <b>everyone</b> in the community
+                        </summary>
+                        <p>
+                            <i>Content Here...</i>
+                        </p>
+                    </details>
+                </section>
 
                 <p>
                     Our journey over the course of the design of our solution to
@@ -35,37 +50,10 @@
                     personalities.
                 </p>
             </section>
-        </section>
+        </main>
 
         <footer>
             <p>Email us at: <a href="mailto:"></a></p>
         </footer>
     </body>
-
-    <script>
-        function mouseOver1() {
-          document.getElementById("aim1").style.display = "block";
-        }
-        
-        function mouseOut1() {
-          document.getElementById("aim1").style.display = "none";
-        }
-
-        function mouseOver2() {
-          document.getElementById("aim2").style.display = "block";
-        }
-        
-        function mouseOut2() {
-          document.getElementById("aim2").style.display = "none";
-        }
-
-        function mouseOver3() {
-          document.getElementById("aim3").style.display = "block";
-        }
-        
-        function mouseOut3() {
-          document.getElementById("aim3").style.display = "none";
-        }
-</script>
-
 </html>
