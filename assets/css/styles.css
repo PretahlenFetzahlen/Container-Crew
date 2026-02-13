@@ -1,4 +1,67 @@
-li,h1,h2,h3,p{font-family:Verdana, Geneva, Tahoma, sans-serif;}
-p{ font-size: 19px;}
-ul{height:450px}
-#main_text{background-color:blue; margin:10px; padding:10px; height:600px}
+* {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+    overflow: auto;
+}
+
+header,
+main,
+footer {
+    background-color: lightblue;
+    border-radius: 20px;
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+main {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+ul {
+    height: 450px;
+}
+
+main > section.content {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+
+    border-radius: 10px;
+    background-color: deepskyblue;
+    /* height: 600px; */
+}
+
+.aims details {
+    font-size: 1.1rem;
+}
+
+footer {
+    padding: 10px;
+}
+footer > p {
+    font-weight: 400;
+    font-size: 0.9rem;
+}
