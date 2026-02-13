@@ -50,8 +50,7 @@ main > section.content {
     padding: 10px;
 
     border-radius: 10px;
-    background-color: deepskyblue;
-    /* height: 600px; */
+    background-color: #80dfff;
 }
 
 .aims details {
