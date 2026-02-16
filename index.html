@@ -2,17 +2,53 @@
     <head>
         <title>Home</title>
         <base href="{{site.baseurl}}" />
-        <link rel="stylesheet" type="text/css" href="./assets/css/styles.css">
+        <link rel="stylesheet" type="text/css" href="./assets/css/styles.css" />
     </head>
 
-    <body style="background-image: url('./assets/img/background.jpg');">
-        <section id = "main" style="width:80%;height:95%; margin:auto; margin-top:2%; margin-bottom:2%; padding:10px; background-color:lightblue;">
-            <h1>Our Challenge</h1>            
+    <body style="background-image: url('./assets/img/background.jpg')">
+        <main>
+            <h1>Our Challenge</h1>
 
-            <section id = main_text>                
-                <p>Our chosen challenge is to design a community space using end of life shipping containers to benefit our local community.</p>
+            <section class="content">
+                <p>
+                    Our chosen challenge is to design a community space using
+                    end of life shipping containers to benefit our local
+                    community.
+                </p>
 
                 <h2>Our Aims</h2>
+                <section class="aims">
+                    <details>
+                        <summary>To reduce homelessness</summary>
+                        <p>
+                            <i>Content Here...</i>
+                        </p>
+                    </details>
+                    <details>
+                        <summary>
+                            Provide a second chance to those in need
+                        </summary>
+                        <p>
+                            <i>Content Here...</i>
+                        </p>
+                    </details>
+                    <details>
+                        <summary>
+                            And improve the living experience for
+                            <b>everyone</b> in the community
+                        </summary>
+                        <p>
+                            <i>Content Here...</i>
+                        </p>
+                    </details>
+                </section>
+
+                <p>
+                    Our journey over the course of the design of our solution to
+                    this challenge has helped each of us develop and grow in
+                    more ways than one. We developed our unique meta skills and
+                    personalities.
+                </p>
                 <ul>
                     <li onmouseover="mouseOver1()" onmouseout="mouseOut1()">To reduce homelessness</li>
                     <br>
@@ -30,39 +66,12 @@
 
                 <p>Our journey over the course of the design of our solution to this challenge has helped each of us develop and grow in more ways than one. We developed our unique meta skills and personalities.</p>
             </section>
-        </section>
+        </main>
 
-        <footer style="width:80%; margin:auto; margin-top:2%; margin-bottom:2%; padding:10px; background-color:lightblue;">
-            <h3>email us at: </h3>
+        <footer>
+            <p>Email us at: <a href="mailto:"></a></p>
         </footer>
     </body>
-
-    <script>
-        function mouseOver1() {
-          document.getElementById("aim1").style.display = "block";
-        }
-        
-        function mouseOut1() {
-          document.getElementById("aim1").style.display = "none";
-        }
-
-        function mouseOver2() {
-          document.getElementById("aim2").style.display = "block";
-        }
-        
-        function mouseOut2() {
-          document.getElementById("aim2").style.display = "none";
-        }
-
-        function mouseOver3() {
-          document.getElementById("aim3").style.display = "block";
-        }
-        
-        function mouseOut3() {
-          document.getElementById("aim3").style.display = "none";
-        }
-</script>
-
 </html>
 
 
